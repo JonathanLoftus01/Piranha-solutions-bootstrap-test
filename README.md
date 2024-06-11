@@ -52,4 +52,4 @@ https://getbootstrap.com/docs/4.6/components/alerts/
 
 But most importantly just give it a go, and have fun. :D
 
-If you are unsure about anything feel free to drop me an email james@piranha-solutions.com and I will be able to assit you.
+If you are unsure about anything feel free to drop me an email james@piranha-solutions.com
