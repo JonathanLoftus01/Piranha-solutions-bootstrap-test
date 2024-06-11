@@ -14,7 +14,7 @@ Body Text Font - font-family: museo-sans-rounded, sans-serif;
 
 ## Icons
 
-We Use Font Awesome for Icons.  https://fontawesome.com/search You can search for an icon and place it onto the index.html and it will show.
+We use Font Awesome for Icons.  https://fontawesome.com/search You can search for an icon and place it onto the index.html and it will show.
 
 <i class="fa-brands fa-facebook-f"></i>
 
