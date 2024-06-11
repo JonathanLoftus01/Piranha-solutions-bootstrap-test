@@ -25,7 +25,7 @@ All the images you require are in the img folder
 
 ## Bonus points,
 
-Make it Mobile Friendly with media query's
+Make it mobile-friendly with media queries
 
 // Extra small devices (portrait phones, less than 576px)
 
