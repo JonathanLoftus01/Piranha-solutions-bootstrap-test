@@ -47,7 +47,8 @@ Make it Mobile Friendly with media query's
 ## Helpful Links
 
 https://fontawesome.com/search
-https://getbootstrap.com/docs/4.6/components/alerts/
+
+https://getbootstrap.com/docs/4.6/layout/overview/
 
 
 But most importantly just give it a go, and have fun. :D
