@@ -2,7 +2,7 @@
 
 We would like you to create this simple visual attached.
 
-Needs to be built in HTML and CSS and Bootstrap 4 Framework Which is setup and ready to go on the Repo above. There is the mainframe work we use at Piranha.
+Needs to be built in HTML and CSS and Bootstrap 4 Framework which is setup and ready to go on the Repo above. This is the main framework we use at Piranha.
 
 The fonts are installed you just need to pull this into the stylesheet. (Details Below)
 
@@ -14,7 +14,7 @@ Body Text Font - font-family: museo-sans-rounded, sans-serif;
 
 ## Icons
 
-We Use Font Awesome for Icons.  https://fontawesome.com/search You can search for an icon and place it onto the website and it will show.
+We Use Font Awesome for Icons.  https://fontawesome.com/search You can search for an icon and place it onto the index.html and it will show.
 
 <i class="fa-brands fa-facebook-f"></i>
 
