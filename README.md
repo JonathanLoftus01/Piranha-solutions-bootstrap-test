@@ -1,6 +1,6 @@
 # Junior Developer Project
 
-We would like you to create a this simple visual attached.
+We would like you to create this simple visual attached.
 
 Needs to be built in HTML and CSS and Bootstrap 4 Framework Which is setup and ready to go on the Repo above. There is the mainframe work we use at Piranha.
 
