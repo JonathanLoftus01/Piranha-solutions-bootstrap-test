@@ -1,0 +1,341 @@
+/* :root{
+    --body-font: "museo-sans-rounded";
+    --heading-font: "abril-fatface";
+}     */
+
+.body-font {
+    font-family: museo-sans-rounded, sans-serif;
+}
+
+.heading-font {
+    font-family: abril-fatface, serif;
+}
+
+.navbar-nav li {
+    margin-right: 14px;
+}
+
+.l-spacing {
+    letter-spacing: 0.1rem;
+}
+
+.footer-title {
+    font-size: 10px;
+    font-weight: bold;
+    font-family: museo-sans-rounded, sans-serif;
+}
+.footer-text {
+    font-size: 12px;
+    font-family: museo-sans-rounded, sans-serif;
+}
+
+.section-a-title {
+        font-family:  abril-fatface, serif; 
+        font-size: 90px; 
+        font-size: 4.7dvw; 
+        text-shadow: 1px 1px 100px rgba(0, 0, 0, 0.90); 
+        margin-left: 13.6dvh; 
+        /* margin-left: 8rem;  */
+        padding-top: 3.7dvw;
+        line-height: 1em;
+        
+
+        color: white; 
+}
+
+.section-a-subtitle {
+    font-family:  abril-fatface, serif; 
+    font-size: 1.3dvw;
+    /* font-size: 24px; */
+}
+
+.section-a-text {
+    font-size: 0.9dvw;
+    /* font-size: 17px; */
+}
+
+.section-a-link {
+    font-size: 0.85dvw;
+    /* font-size: 16px; */
+    padding-top: 0.8dvw;
+    font-weight: bold;
+    
+}
+
+.section-b-title {
+    font-family:Ehrhardt MT; 
+    font-size:1.6dvw;
+}
+
+.section-b-text{
+    font-size: 0.8dvw;
+}
+.section-b-subtext{
+    font-size: 0.8dvw;
+    color:RGB(169,167,168)
+}
+
+
+.section-c-midgap{
+    width:8.5dvw;
+}
+.section-c-title{
+    font-size: 2.1dvw;
+}
+.section-c-text {
+    line-height:1.4em;
+    font-size: 0.85dvw;
+    font-weight: 300;
+    color: gray;
+}
+
+.section-c-button {
+    font-size: 0.8dvw;
+    margin-top: 5%; 
+    padding-top:0.8em; 
+    padding-bottom: 0.8em; 
+    letter-spacing: 2px; 
+    font-weight: bold;
+}
+
+
+/* .section-d-img{
+    max-width:30dvw;
+} */
+
+
+.section-d-title {
+    font-size: 1.2dvw; 
+    letter-spacing: 0.125em; 
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.section-d-text {
+    font-size: 0.8dvw;
+    font-weight: 100;
+}
+
+.section-d-col{
+    margin-right:0px;
+}
+
+
+.size-toast {
+    z-index: 5; 
+    right: 0; 
+    bottom: 0;
+    width:0.5dvw;
+    height:0.5dvh;
+    background-color: black;
+
+}
+
+/* specific layout issue */
+@media (max-width: 1900px) {
+    .section-d-col{
+        margin-right:16px;
+    }
+}
+
+    /* Large devices (desktops, less than 1200px) */
+  
+@media (max-width: 1199.98px) { 
+    .size-toast {
+        background-color: blue;
+    }
+    .section-a-title {
+        font-size: 60px;
+        margin-left: 7dvw;
+        /* margin-left: 8rem;  */   
+        /* line-height:5.5rem; */
+    }
+    .section-a-subtitle { 
+        font-size: 1.6dvw;
+    }
+    .section-a-text {
+        font-size: 1.4dvw;
+    }
+    .section-a-link {
+        font-size: 0.9dvw;
+    } 
+    .section-b-title{
+        font-size: 2.1dvw;
+    }
+    .section-b-text{
+        font-size: 1.2dvw;
+    }
+    .section-b-subtext{
+        font-size: 1.2dvw;
+    }
+    .section-c-img {
+        max-width:cover;
+    }
+    .section-c-midgap{
+        width: 20dvw;
+    }   
+    .section-c-title{
+        font-size: 3.4dvw;
+    }
+    .section-c-text{
+        font-size: 1.5dvw;
+        max-width: 60dvw;
+    }
+    .section-c-button{
+        margin-top: 0%;
+        font-size: 1.5dvw;
+    }
+    .section-d-title {
+        font-size: 2dvw;
+    }
+    .section-d-text {
+        font-size: 1.5dvw;
+    }
+    .section-d-col{
+        margin-right:0px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+    
+@media (max-width: 991.98px) {
+    .size-toast {
+        background-color: blueviolet;
+    }
+    .section-a-title {
+        font-size: 50px;
+        margin-left: 7dvw; 
+    }
+    .section-a-subtitle { 
+        font-size: 1.8dvw;
+    }
+    .section-a-text {
+        font-size: 1.4dvw;
+    }
+    .section-a-link {
+        font-size: 1.35dvw;
+    } 
+    .section-b-title {
+        font-size: 2.6dvw;
+    }
+    .section-b-text{
+        font-size: 1.6dvw;
+    }
+    .section-b-subtext{
+        font-size: 1.6dvw;
+    }
+    .section-c-img{
+        width:110dvw
+    }
+    .section-c-title{
+        font-size: 4dvw;
+    }
+    /* .section-c-text{
+        font-size: 1.8dvw;
+    } */
+    .section-c-button{
+        font-size: 1.5dvw;
+        margin-top: 0px;
+    }
+    .section-d-title {
+        font-size: 2.5dvw;
+    }
+    .section-d-text {
+        font-size: 2dvw;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    .size-toast {
+        background-color: brown;
+    }
+    .section-a-title {
+            font-size: 40px;
+            margin-left: 8dvw; 
+        }
+        .section-a-subtitle { 
+            font-size: 2.3dvw;
+        }
+        .section-a-text {
+            font-size: 1.7dvw;
+        }
+        .section-a-link {
+            font-size: 1.85dvw;
+        } 
+        .section-b-title{
+            font-size: 4dvw;
+        }
+        .section-b-text{
+            font-size:2dvw;
+        }
+        .section-b-subtext{
+            font-size:2dvw;
+        }
+        .section-c-title{
+            font-size: 5dvw;
+        }
+        .section-c-text{
+            font-size:2.3dvw
+        }
+        .section-c-button {
+            font-size: 2dvw;
+        }
+        .section-d-title {
+            font-size: 3dvw;
+        }
+        .section-d-text {
+            font-size: 2.5dvw;
+        }
+        
+
+}
+
+    /* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .size-toast {
+        background-color: burlywood;
+    }
+    .section-a-title {
+        font-size: 30px;
+        /* margin-left: 8rem;  */
+    }
+    .section-a-subtitle{
+        font-size: 4dvw;
+    }
+    .section-a-text{
+        font-size: 2dvw;
+    }
+    .section-a-link{
+        font-size:2dvw;
+    }
+    .section-b-title {
+        font-size: 4.5dvw;
+    }
+    .section-b-text {
+        font-size: 2.6dvw;
+    }
+    .section-b-subtext {
+        font-size: 2.6dvw;
+    }
+    .section-c-midgap{
+        width: 24dvw;
+    }   
+    .section-c-title{
+        font-size: 6dvw;
+    }
+    .section-c-text{
+        font-size: 2.8dvw;
+    }
+    .section-c-button{
+        font-size:2.2dvw;
+    }
+    .section-d-title {
+        font-size: 3.5dvw;
+    }
+    .section-d-text {
+        font-size: 3dvw;
+    }
+}
